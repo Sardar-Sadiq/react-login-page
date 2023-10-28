@@ -13,15 +13,15 @@ function App() {
               <input type='text'></input>
               <h4>Password</h4>
               <input type='password'></input>
-              </div>
               <div className='btn'>
                     <button className='btn1'>login</button>
+                    
                     <button className='btn2'>Reset</button>
               </div>
+              </div>
+              
           </div>
-          <div className='second-box'>
-              <h1>ali</h1>
-          </div>
+          
       </div>
     </div>
   );

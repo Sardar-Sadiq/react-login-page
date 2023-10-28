@@ -1,56 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 
 body{
-  background-image: url(https://images.unsplash.com/photo-1513436539083-9d2127e742f1?auto=format&fit=crop&q=80&w=2063&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-image: url('https://shorturl.at/kruT9');
   color: aliceblue;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat:no-repeat;
+  background-size:auto;
+  backdrop-filter: saturate(110%);
 }
 
 .container{
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: auto;
-  margin-top: 8rem;
-  margin-bottom: 5rem;
-  width: 80%;
-  padding: auto;
-  height: 500px;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
 }
-.box{
-  height: 600px;
-  width: 500px;
-}
+
 .first-box{
- 
   padding: 10px;
   margin: 1rem;
   backdrop-filter:saturate(180%) blur(3px);
   border-radius: 1rem;
-  position: relative;
-  left: 70%;
+  height: 28rem;
+  width: 30rem;
 }
  /* login inputs css */
 .loginbox{  
-padding: 50px;
+padding: 25px;
 }
 
 button{
-  
+  width: 48%;
   height: 30px;
 }
 .btn1{
  /*styles*/
- width: 48%;
+ 
  margin-right: 2%;
 }
 .btn2{
   /*styles*/
-  width: 48%;
+ 
   margin-left: 2%;
 }
 
 .btn{
-  margin: 30px 80px;
+  margin-top: 30px;
   column-count: 50%;
 
 }
@@ -59,6 +55,7 @@ input{
   width: 300px;
   height: 20px;
  border-radius: .5rem;
+  border: 2px solid black;
 }
 
 h4{

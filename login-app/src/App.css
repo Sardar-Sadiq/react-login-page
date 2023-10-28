@@ -24,6 +24,7 @@ body{
   border-radius: 1rem;
   height: 28rem;
   width: 30rem;
+  box-shadow: 5px 8px 5px #000000;
 }
  /* login inputs css */
 .loginbox{  
@@ -32,8 +33,13 @@ padding: 25px;
 
 button{
   width: 48%;
-  height: 30px;
+  height: 40px;
+  box-shadow: 5px 8px 5px #000000;
 }
+
+
+
+
 .btn1{
  /*styles*/
  
@@ -53,11 +59,20 @@ button{
 
 input{
   width: 300px;
-  height: 20px;
- border-radius: .5rem;
-  border: 2px solid black;
+  height: 25px;
+ border-radius: 2rem;
+  
+  box-shadow: 2px 5px 2px #000000;
 }
 
 h4{
   font-family: 'Oswald', sans-serif;
+  border-bottom: 2px solid black;
+  width: 70px;
 }
+
+
+
+/*for buttons */
+
+
